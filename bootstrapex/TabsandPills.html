@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>DropDowns</title>
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+<body>
+	<ul class="list-inline">
+		<li> <a href="">Home</a></li>
+		<li> <a href="">Menu 1</a></li>
+		<li> <a href="">Menu 2</a></li>
+	</ul>
+	<br>
+	<ul class="nav nav-tabs">
+		<li class="active"> <a href="#">Home</a></li>
+		<li> <a href="#">Menu 1</a></li>
+		<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 2 <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li> <a href="">Menu 2-1</a></li>
+				<li> <a href="">Menu 2-2</a></li>
+				<li> <a href="">Menu 2-3</a></li>
+			</ul>
+		</li>
+		<li> <a href="#">Menu 3</a></li>
+		<li> <a href="#">Menu 4</a></li>
+	</ul>
+<br>
+	<ul class="nav nav-pills">
+		<li class="active"> <a href="">Home</a></li>
+		<li> <a href="">Menu 1</a></li>
+		<li> <a href="">Menu 2</a></li>
+		<li> <a href="">Menu 3</a></li>
+		<li> <a href="">Menu 4</a></li>
+	</ul>
+<br>
+	<ul class="nav nav-pills nav-stacked">
+		<li class="active"> <a href="">Home</a></li>
+		<li> <a href="">Menu 1</a></li>
+		<li> <a href="">Menu 2</a></li>
+		<li> <a href="">Menu 3</a></li>
+		<li> <a href="">Menu 4</a></li>
+	</ul>
+<br>
+	<ul class="nav nav-pills">
+		<li class="active"> <a href="#">Home</a></li>
+		<li> <a href="#">Menu 1</a></li>
+		<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown"
+		 href="#">Menu 2 <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li> <a href="">Menu 2-1</a></li>
+				<li> <a href="">Menu 2-2</a></li>
+				<li> <a href="">Menu 2-3</a></li>
+			</ul>
+		</li>
+		<li> <a href="#">Menu 3</a></li>
+		<li> <a href="#">Menu 4</a></li>
+	</ul>
+<br>
+	<ul class="nav nav-pills nav-justified">
+		<li class="active"> <a href="">Home</a></li>
+		<li> <a href="">Menu 1</a></li>
+		<li> <a href="">Menu 2</a></li>
+		<li> <a href="">Menu 3</a></li>
+		<li> <a href="">Menu 4</a></li>
+	</ul>
+<br>
+	<ul class="nav nav-tabs">
+		<li class="active"> <a data-toggle="tab" href="#home">Home</a></li>
+		<li> <a data-toggle="tab" href="#menu1">Menu 1</a></li>
+		<li> <a data-toggle="tab" href="#menu2">Menu 2</a></li>
+	</ul>
+	
+	<div class="tab-content">
+		<div class="tab-pane fade in active" id="home">
+			<h3>Home</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quaerat optio vel adipisci obcaecati eligendi nesciunt, minus rem ipsa iste repudiandae aliquam vero quidem, pariatur laborum illum soluta consectetur cupiditate.</p>
+		</div>
+		<div class="tab-pane fade in " id="menu1">
+			<h3>Menu 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iste eligendi non ullam neque et molestiae hic repellendus nam doloremque. Facere unde temporibus quaerat doloremque explicabo, nulla obcaecati dolore. Dolorem.</p>
+		</div>
+		<div class="tab-pane fade in " id="menu2">
+			<h3>Menu 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam deserunt fuga libero, reiciendis et recusandae perspiciatis eos aspernatur asperiores, voluptates, quis necessitatibus reprehenderit molestiae doloribus, animi deleniti officiis. Ad, possimus.</p>
+		</div>
+	</div>
+</body>
+</html>
